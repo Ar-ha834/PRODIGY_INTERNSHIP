@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f8f1e5;
+    background-image: url('https://www.transparenttextures.com/patterns/linen.png'); /* Subtle paper texture */
+    color: #4e342e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #8d6e63;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #5d4037;
+    text-shadow: 1px 1px 2px #3e2723;
+}
+
+.timer {
+    font-size: 3.5em;
+    margin-bottom: 25px;
+    color: #6d4c41;
+    letter-spacing: 0.1em;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    padding: 12px 25px;
+    margin: 10px;
+    border: 2px solid #795548;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #a1887f;
+    color: #ffffff;
+    transition: all 0.3s;
+    box-shadow: 0px 6px 0px #6d4c41;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(6px);
+}
+
+button:hover {
+    background-color: #8d6e63;
+}
+
+.laps {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #4e342e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #5d4037;
+}
